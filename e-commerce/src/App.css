@@ -73,13 +73,7 @@ html {
 }
 
 
-
-/* MAIN VIEW */
-.main-view .showcase-img img {
-    width: 100%;
-}
-
-
+/* MENU */
 .menu-clothes {
     position: absolute;
     top: 226px;
@@ -92,7 +86,6 @@ html {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* gap: 5rem; */
 }
 .menu-link {
     display: flex;
@@ -107,4 +100,102 @@ html {
 }
 .menu-clothes img {
     height: 270px;
+}
+
+
+
+/* MAIN VIEW */
+.main-view .showcase-img img {
+    width: 100%;
+}
+
+
+
+.main-view .category-box-1 {
+    width: 75%;
+    margin: 50rem auto 0;
+    height: 500px;
+    padding: 2rem 1rem 2rem 2rem;
+    background-color: white;
+    box-shadow: 1px 1px 10px lightgray;
+
+    position: absolute;
+    z-index: 2;
+    inset: 0;
+}
+.main-view .category-box-1 .title,
+.main-view .category-box-2 .title,
+.main-view .category-box-3 .title {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: .5rem;
+    padding-left: 2rem;
+    
+}
+.main-view .category-box-1 .title img,
+.main-view .category-box-2 .title img,
+.main-view .category-box-3 .title img {
+    height: 100px;
+}
+.main-view .category-box-1 .img-container,
+.main-view .category-box-2 .img-container,
+.main-view .category-box-3 .img-container {
+    display: flex;
+    align-items: center;
+}
+.chevron-right {
+    height: 3rem;
+    padding-left: .5rem;
+}
+.main-view .category-box-1 .img,
+.main-view .category-box-2 .img,
+.main-view .category-box-3 .img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
+}
+.main-view .category-box-1 .img img,
+.main-view .category-box-2 .img img,
+.main-view .category-box-3 .img img {
+    width: 100%;
+}
+
+
+
+.main-view .category-box-2 {
+    width: 75%;
+    margin: 18rem auto 0;
+    height: 500px;
+    padding: 2rem 1rem 2rem 2rem;
+    background-color: white;
+    box-shadow: 1px 1px 10px lightgray;
+}
+.main-view .category-box-3 {
+    width: 75%;
+    margin: 5rem auto;
+    height: 500px;
+    padding: 2rem 1rem 2rem 2rem;
+    background-color: white;
+    box-shadow: 1px 1px 10px lightgray;
+}
+
+.main-view .category-box-1 .title h3 {
+    color: #FF4A4A;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+.main-view .category-box-2 .title h3 {
+    font-family: cursive;
+    font-size: 2.5rem;
+    font-weight: 100;
+    color: rgb(186, 174, 212);
+    
+}
+.main-view .category-box-3 .title h3 {
+    color: chocolate;
+    font-size: 2rem;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
