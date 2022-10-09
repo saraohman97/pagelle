@@ -5,7 +5,7 @@ const TopNav = () => {
     <div className='top-nav'>
       <div className="container">
         <small>Shoppa höstens erbjudande</small>
-        <small>Rabattkod: AUTUMN22</small>
+        <small className='center'>Rabattkod: AUTUMN22</small>
         <div className="social-icons">
           <i className="fa-brands fa-facebook-f"></i>
           <i className="fa-brands fa-instagram"></i>

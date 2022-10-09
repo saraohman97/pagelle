@@ -11,6 +11,7 @@ import NewsView from './views/NewsView';
 import ShoesView from './views/ShoesView';
 import TermsView from './views/TermsView';
 import ClothesView from './views/ClothesView';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
         <Route path='/skor' element={ <ShoesView /> } />
         <Route path='/frakt' element={ <TermsView /> } />
       </Routes>
+
+      <Footer />
     </div>
   );
 }
